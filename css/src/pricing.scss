@@ -1,0 +1,49 @@
+#pricing {
+    background: $light-font-color;
+    color: $primary-color;
+    padding: 2em 0em 3em;
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+    }
+    .price-option {
+        border: 1px solid $dark-font-color;
+        color: $dark-font-color;
+        position: relative;
+        border-radius: 10px;
+        height: 38em;
+        margin-bottom: 2em;
+        h3 {
+            text-transform: uppercase;
+            background: $primary-color;
+            color: $light-font-color;
+            border-radius: 10px 10px 0 0;
+            margin: 0;
+            padding: 0.6em 0em;
+        }
+        .reason {
+            padding: 0.8em 0.5em;
+            border-bottom: 1px solid $dark-font-color;
+            margin: 0em 2em;
+            font-weight: bold;
+        }
+        .price-title {
+            font-size: 1.5em;
+        }
+        p.price-desc {
+            margin: 2em 1em;
+            font-weight: bold;
+        }
+        a.sign-up {
+            position: absolute;
+            bottom: 2em;
+            left: 2em;
+            right: 2em;
+            border: 2px solid $primary-color;
+            //margin: 0em 2em;
+            &.btn-outline {
+                color: $primary-color;
+            }
+        }
+    }
+}

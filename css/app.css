@@ -79,7 +79,7 @@ body {
   background: #fff;
   color: #B5BDC4;
   text-align: center;
-  padding: 2em 0em; }
+  padding: 3em 0em; }
   #intro a.try-demo {
     margin-left: 1em; }
   #intro h2 {
@@ -89,17 +89,25 @@ body {
 
 #features {
   background: #F7F7F5;
-  color: #B5BDC4; }
+  color: black; }
   #features .container {
     background-image: url("../assets/slanted-phone.jpg");
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    padding: 5em 1em 14em; }
+    background-size: 100%;
+    text-align: center; }
+  @media (min-width: 768px) {
+    #features {
+      color: #B5BDC4; }
+      #features .container {
+        text-align: left;
+        padding: 5em 1em 14em;
+        background-size: auto; } }
 
 #takelook {
   background: #977dc4;
   color: #fff;
-  padding: 2em 0em;
+  padding: 2em 0em 4em;
   text-align: center; }
   #takelook a.take-money {
     background: #4BD9DD;
@@ -109,7 +117,10 @@ body {
     margin-left: 1em;
     padding: 1em 2em; }
   #takelook h2 {
-    margin: 2em 0 0.7em; }
+    margin: 2em 0 0.7em;
+    text-transform: uppercase; }
+  #takelook p {
+    margin-bottom: 2em; }
 
 #videodemo .video-container {
   position: relative;
@@ -130,7 +141,7 @@ body {
   background: #F7F7F5;
   color: #B5BDC4;
   text-align: center;
-  padding: 3em 0em; }
+  padding: 3em 0em 4em; }
   #options i {
     font-size: 3em;
     color: #977dc4; }
@@ -148,5 +159,48 @@ body {
       display: inline; }
     #options .onlyxs {
       display: none; } }
+
+#pricing {
+  background: #fff;
+  color: #977dc4;
+  padding: 2em 0em 3em;
+  text-align: center; }
+  #pricing h2 {
+    text-transform: uppercase; }
+  #pricing .price-option {
+    border: 1px solid #B5BDC4;
+    color: #B5BDC4;
+    position: relative;
+    border-radius: 10px;
+    height: 38em;
+    margin-bottom: 2em; }
+    #pricing .price-option h3 {
+      text-transform: uppercase;
+      background: #977dc4;
+      color: #fff;
+      border-radius: 10px 10px 0 0;
+      margin: 0;
+      padding: 0.6em 0em; }
+    #pricing .price-option .reason {
+      padding: 0.8em 0.5em;
+      border-bottom: 1px solid #B5BDC4;
+      margin: 0em 2em;
+      font-weight: bold; }
+    #pricing .price-option .price-title {
+      font-size: 1.5em; }
+    #pricing .price-option p.price-desc {
+      margin: 2em 1em;
+      font-weight: bold; }
+    #pricing .price-option a.sign-up {
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+      right: 2em;
+      border: 2px solid #977dc4; }
+      #pricing .price-option a.sign-up.btn-outline {
+        color: #977dc4; }
+
+#mountains img {
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
