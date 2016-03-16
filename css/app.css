@@ -80,9 +80,9 @@ body {
   background: #fff;
   color: #B5BDC4;
   text-align: center;
-  padding: 2em 0; }
+  padding: 2em 0em; }
   #intro a.get-started {
-    background: #977dc4; }
+    width: 12em; }
   #intro a.try-demo {
     margin-left: 1em; }
   #intro h2 {
@@ -97,6 +97,6 @@ body {
     background-image: url("../assets/slanted-phone.jpg");
     background-repeat: no-repeat;
     background-position: 50% 100%;
-    padding: 3em 0 14em; }
+    padding: 5em 2em 14em; }
 
 /*# sourceMappingURL=app.css.map */
