@@ -1,0 +1,10 @@
+#features {
+    background: $light-bg-color;
+    color: $dark-font-color;
+    .container {
+        background-image: url("../assets/slanted-phone.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        padding: 3em 0 14em;
+    }
+}

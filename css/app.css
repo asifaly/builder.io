@@ -3,8 +3,9 @@ body {
 
 .btn-solid {
   color: #fff;
+  background: #977dc4;
   text-transform: uppercase;
-  width: 12em;
+  width: 14em;
   padding: 1em 3em;
   font-weight: bold;
   border-radius: 2px; }
@@ -19,6 +20,8 @@ body {
   font-weight: bold;
   border-radius: 2px;
   border: 2px solid #B5BDC4; }
+  .btn-outline:hover {
+    color: #B5BDC4; }
 
 #landing {
   background: #977dc4;
@@ -37,7 +40,8 @@ body {
     #landing nav a:hover {
       border-bottom: 2px solid white; }
   #landing a.action {
-    background: #4BD9DD; }
+    background: #4BD9DD;
+    width: 12em; }
   #landing h1 {
     margin-top: 2em;
     font-size: 4em; }
@@ -83,5 +87,16 @@ body {
     margin-left: 1em; }
   #intro h2 {
     margin: 2em 0 0.7em; }
+  #intro p {
+    font-size: 1.2em; }
+
+#features {
+  background: #F7F7F5;
+  color: #B5BDC4; }
+  #features .container {
+    background-image: url("../assets/slanted-phone.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    padding: 3em 0 14em; }
 
 /*# sourceMappingURL=app.css.map */

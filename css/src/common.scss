@@ -4,8 +4,9 @@ body {
 
 .btn-solid {
     color: $light-font-color;
+    background: $primary-color;
     text-transform: uppercase;
-    width: 12em;
+    width: 14em;
     padding: 1em 3em;
     font-weight: bold;
     border-radius: 2px;
@@ -22,4 +23,7 @@ body {
     font-weight: bold;
     border-radius: 2px;
     border: 2px solid $dark-font-color;
+    &:hover {
+        color: $dark-font-color;
+    }
 }
