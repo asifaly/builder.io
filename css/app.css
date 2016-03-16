@@ -202,5 +202,24 @@ body {
 
 #mountains img {
   width: 100%; }
+#mountains .take-my-money {
+  text-align: center;
+  background: #977dc4;
+  padding: 3em 0em; }
+  #mountains .take-my-money .take-money {
+    background: #4BD9DD; }
+
+#footer {
+  color: #B5BDC4;
+  padding: 2em 0em; }
+  #footer a {
+    margin-right: 1em;
+    font-weight: bold;
+    color: #B5BDC4; }
+  #footer h3 {
+    text-transform: uppercase; }
+  @media (min-width: 768px) {
+    #footer a {
+      display: block; } }
 
 /*# sourceMappingURL=app.css.map */

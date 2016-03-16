@@ -1,0 +1,17 @@
+#footer {
+    color: $dark-font-color;
+    padding: 2em 0em;
+    a {
+        margin-right: 1em;
+        font-weight: bold;
+        color: $dark-font-color;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+    @media (min-width: 768px) {
+        a {
+            display: block;
+        }
+    }
+}
