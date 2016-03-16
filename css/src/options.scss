@@ -1,0 +1,30 @@
+#options {
+    background: $light-bg-color;
+    color: $dark-font-color;
+    text-align: center;
+    padding: 3em 0em;
+    i {
+        font-size: 3em;
+        color: $primary-color;
+    }
+    a {
+        color: $primary-color;
+        font-weight: bold;
+    }
+    .smabove {
+        display: none;
+    }
+    .onlyxs {
+        display: block;
+        margin: 0em 0em 2em;
+        padding-bottom: 0em;
+    }
+    @media (min-width: 768px) {
+        .smabove {
+            display: inline;
+        }
+        .onlyxs {
+            display: none;
+        }
+    }
+}

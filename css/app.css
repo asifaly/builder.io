@@ -124,6 +124,29 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 85%; }
+  height: 100%; }
+
+#options {
+  background: #F7F7F5;
+  color: #B5BDC4;
+  text-align: center;
+  padding: 3em 0em; }
+  #options i {
+    font-size: 3em;
+    color: #977dc4; }
+  #options a {
+    color: #977dc4;
+    font-weight: bold; }
+  #options .smabove {
+    display: none; }
+  #options .onlyxs {
+    display: block;
+    margin: 0em 0em 2em;
+    padding-bottom: 0em; }
+  @media (min-width: 768px) {
+    #options .smabove {
+      display: inline; }
+    #options .onlyxs {
+      display: none; } }
 
 /*# sourceMappingURL=app.css.map */
