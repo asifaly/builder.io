@@ -1,0 +1,15 @@
+#intro {
+    background: $light-font-color;
+    color: $dark-font-color;
+    text-align: center;
+    padding: 2em 0;
+    a.get-started {
+        background: $primary-color;
+    }
+    a.try-demo {
+        margin-left: 1em;
+    }
+    h2 {
+        margin: 2em 0 0.7em;
+    }
+}

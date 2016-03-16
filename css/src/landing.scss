@@ -1,0 +1,65 @@
+#landing {
+    background: $primary-color;
+    color: $light-font-color;
+    text-align: center;
+    padding-top: 3em;
+    nav a {
+        color: $dark-font-color;
+        text-decoration: none;
+        margin-left: 1.5em;
+        padding-bottom: 0.5em;
+        &.active {
+            color: $light-font-color;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+        &:hover {
+            border-bottom: 2px solid white;
+        }
+    }
+    a.action {
+        background: $secondary-color;
+    }
+    h1 {
+        margin-top: 2em;
+        font-size: 4em;
+    }
+    p.tagline {
+        font-size: 1.3em;
+    }
+    .image-container {
+        position: relative;
+        img {
+            margin-top: 4em;
+            width: 100%;
+        }
+        .likes {
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+            font-size: 1.8em;
+            i {
+                margin-right: 0.2em;
+            }
+        }
+        .caption {
+            position: absolute;
+            bottom: 1em;
+            left: 2em;
+            text-align: left;
+            p.title {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin: 0;
+            }
+        }
+        .edit {
+            position: absolute;
+            top: 1em;
+            right: 1em;
+            font-size: 2em;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 0.3em 0.4em;
+        }
+    }
+}
